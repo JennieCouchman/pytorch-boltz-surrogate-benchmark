@@ -33,7 +33,8 @@ This project implements a **100% local Active-Learning Virtual Screening Loop** 
 │   ├── features.py        # RDKit SMILES-to-Morgan fingerprint NumPy pipeline
 │   └── baselines.py       # Scikit-learn RF, GP, Bagged SVR, and Tanimoto kNN surrogates
 └── tests/
-    └── test_features.py   # Unit tests for MorganFeaturizer and SMILES edge cases
+│   ├── __init__.py
+│   └── test_features.py   # Unit tests for MorganFeaturizer and SMILES edge cases
 ```
 
 ---
